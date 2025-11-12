@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:football_news/widgets/left_drawer.dart';
 import 'package:football_news/screens/newslist_form.dart';
 import 'package:football_news/widgets/news_card.dart';
+import 'package:football_news/screens/news_entry_list.dart';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
@@ -23,7 +24,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       // AppBar macam navbar (i think)
       appBar: AppBar(
-        title: const Text('Football News', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold), ),
+        title: const Text('Football News', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
         // Warna latar navbar diambil dari color scheme primary aplikasi
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
