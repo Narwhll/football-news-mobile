@@ -17,7 +17,7 @@ class NewsDetailPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('News Details'),
+        title: const Text('News Detail'),
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),
